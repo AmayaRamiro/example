@@ -1,38 +1,63 @@
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
+  display: flex;
+  height: 100vh;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: right;
+  width: 100vw;
 }
 
-.App-link {
-  color: #61dafb;
+.QuoteBox {
+  box-shadow: 10px 5px 5px #2c2b2b;
+  height: 300px;
+  padding: 20px;
+  width: 70%;
+  background-color: #fff;
+  border-radius: 0 20%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-quote {
+  display: flex;
+  justify-content: start;
+  margin: 0 20px;
+  height: 50%;
+  width: 90%;
 }
+
+.fa-solid{
+  width: 40px;
+  height: 50px;
+  font-size: 3rem ;
+  
+}
+
+.container-quote {
+  display: flex;
+  justify-content: start;
+  margin: 0 20px;
+  height: 50%;
+  width: 90%;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.fa-quote-left{
+  margin-right: 1rem;
+}
+
+.button{
+  border-radius: 50% ;
+}
+
+
+
+
+
+
